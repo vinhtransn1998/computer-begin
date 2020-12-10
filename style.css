@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* HEADER */
+
+
+/* logo */
+
+.logo>img {
+    margin-left: 30px;
+}
+
+
+/* banner */
+
+.banner {
+    width: 100%;
+    margin: auto;
+    height: 205px;
+    background-image: url(./img/banner.png);
+    background-size: cover;
+}
+
+.menu {
+    display: flex;
+    padding-inline-start: 0px;
+}
+
+.menu>a>.menu__item {
+    color: red;
+    list-style-type: none;
+    padding: 15px 21px 15px 21px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.menu>a>.menu__item:hover {
+    background-color: rgba(204, 182, 182, 0.171);
+    color: rgb(27, 155, 55);
+    border-bottom: 2px solid rgba(204, 182, 182, 0.171);
+    ;
+}
+
+.menu>a {
+    text-decoration: none;
+}
+
+
+/* Taskbar */
+
+.taskbar__info {
+    display: flex;
+    background-color: rgba(204, 182, 182, 0.171);
+    padding: 12px 0 12px 15px;
+}
+
+.taskbar__info>.task__link>a {
+    text-decoration: none;
+    color: rgb(32, 32, 182);
+    transition: all 0.5s;
+}
+
+.taskbar__info>.task__link>a:hover {
+    color: red;
+}
+
+
+/* infor */
+
+.infor {
+    margin-top: 10px;
+    display: flex;
+}
+
+.menu__infor {
+    width: 30%;
+}
+
+.items__sp {
+    width: 70%;
+}
+
+
+/* list */
+
+.title__list {
+    background: rgb(49, 47, 47);
+    color: white;
+    padding: 10px 15px;
+}
+
+.infor__list>.border {
+    margin-top: 0px;
+    border: 1px solid black;
+    border-radius: 1%;
+}
+
+.infor>.menu__infor>.infor__list>ul>a {
+    text-decoration: none;
+}
+
+.menu__infor__items {
+    list-style: none;
+    color: black;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+
+/* card */
+
+.items__card {
+    padding: 10px 10px 10px 25px;
+}
+
+.list__card {
+    width: 100%;
+    display: flex;
+}
+
+.card {
+    margin-bottom: 20px;
+    height: 284px;
+    width: 25%;
+}
+
+.card__img__top {
+    width: 150px;
+    height: 150px;
+}
+
+
+/* button */
+
+.button__nav {
+    margin-top: 10px;
+}
+
+.pagination {
+    display: flex;
+    width: 30%;
+    margin: auto;
+}
+
+.pagination>.page__item {
+    height: 20px;
+    width: auto;
+    border: 1px solid rgba(43, 37, 37, 0.171);
+    list-style: none;
+    padding: 0 2px;
+    margin: 0 2px;
+    transition: all 0.5s;
+}
+
+.pagination>.page__item:hover {
+    color: red;
+    border: 2px solid black;
+}
+
+.pagination>.page__item>.page__link {
+    text-decoration: none;
+}
+
+.defaut {
+    color: rgba(5, 5, 5, 0.171);
+}
+
+
+/* footer */
+
+footer {
+    margin-top: 10px;
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(56, 46, 46);
+    padding: 10px;
+}
+
+.footer>p {
+    color: white;
+    text-align: center;
+}
